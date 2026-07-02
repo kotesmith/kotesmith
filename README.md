@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/bonfire.gif" width="680" alt="Kotesmith" />
+  <img src="bonfire.gif" width="680" alt="Kotesmith" />
 </div>
 
 <div align="center">
