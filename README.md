@@ -25,7 +25,7 @@ Most of it built solo or near-solo, moving fast with an AI-assisted multi-agent 
 
 ## Shipped
 
-- **A community-driven compatibility database** for a niche technical platform, think the "ProtonDB model" applied somewhere else. Five-tier rating system, automated config parsing with one-click import, installable as a PWA. Grew through genuine organic community seeding, not paid acquisition.
+- **A community-driven compatibility database** for a niche technical platform, think the "ProtonDB model" applied somewhere else. Five-tier rating system, automated config parsing with one-click import, installable as a PWA. Grew through genuine organic community seeding, not paid acquisition. Wound down once the market consolidated around a stronger open-source alternative, open-sourced rather than left to rot, see [configmage](https://github.com/kotesmith/configmage) below.
 - **A gamified personal finance product** that turned debt payoff into an RPG, boss health bars, tiered difficulty scaling with debt size, milestone rewards. Built to make a genuinely unpleasant financial task something people actually wanted to open daily.
 - **A behavioral trading journal**, deliberately pivoted away from signal generation and prediction toward pattern recognition and discipline-building, a product and regulatory decision made early and stuck to.
 - **An AI-agent marketing platform** for crypto projects: automated social agents, multi-level referral mechanics, deflationary token economics with automatic burns.
@@ -36,15 +36,13 @@ Most of it built solo or near-solo, moving fast with an AI-assisted multi-agent 
 
 ## Open source
 
-<!-- Fill in once each repo actually exists. Suggested first three, in rough order of effort: -->
+- **[agentic-project-scaffold](https://github.com/kotesmith/agentic-project-scaffold)** — the CLAUDE.md / AGENTS.md / PLAN.md pattern used to keep AI coding agents (Claude Code, Cline, whatever's running) inside real constraints across a whole project, instead of re-explaining context every session. Extracted from actual production use, not a theoretical template.
+- **[configmage](https://github.com/kotesmith/configmage)** — compatibility config generator for handheld emulation. Wound down as a product once the market consolidated, open-sourced rather than left to rot.
+- **[prompt-library](https://github.com/kotesmith/prompt-library)** — a working collection of prompts that have actually been battle-tested across a year-plus of AI-assisted development, not a listicle. Organized by what they're for, not how clever they sound.
 
-- **[agentic-project-scaffold](#)** — the CLAUDE.md / AGENTS.md / PLAN.md pattern used to keep AI coding agents (Claude Code, Cline, whatever's running) inside real constraints across a whole project, instead of re-explaining context every session. Extracted from actual production use, not a theoretical template.
-- **[configmage](#)** *(formerly Bootable.gg)* — compatibility config generator for handheld emulation. Wound down as a product once the market consolidated, open-sourced rather than left to rot.
-- **[prompt-library](#)** — a working collection of prompts that have actually been battle-tested across a year-plus of AI-assisted development, not a listicle. Organized by what they're for, not how clever they sound.
+The three pair together: the scaffold pattern keeps an agent oriented inside a project, the prompt library is what actually gets typed into it once it is.
 
 ## Currently building
-
-<!-- Keep this vague until ready to name it publicly. Something like: -->
 
 A crypto-native product on Solana. More when it's ready to talk about.
 
@@ -78,7 +76,7 @@ A crypto-native product on Solana. More when it's ready to talk about.
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white)
 
-<sub>multi-agent AI-assisted development, orchestrating fast iteration with careful review on anything security-critical</sub>
+<sub>multi-agent AI-assisted development, orchestrating fast iteration with careful review on anything security-critical, see [agentic-project-scaffold](https://github.com/kotesmith/agentic-project-scaffold) for the actual convention</sub>
 
 ## Find me
 
