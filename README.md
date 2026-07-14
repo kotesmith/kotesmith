@@ -19,13 +19,12 @@
 
 ---
 
-A year and a half ago this was a notebook full of ideas and a day job. Since then it's been a steady run of shipped products, a community-driven database that grew through real organic adoption, a gamified finance app with its own combat system, an AI-agent platform, a B2B SaaS live in production processing real payments, a consumer marketplace, internal automation tooling that replaced hours of manual work every week, and now a crypto-native product on Solana, first Rust program included.
+A year and a half ago this was a notebook full of ideas and a day job. Since then it's been a steady run of shipped products, a gamified finance app with its own combat system, an AI-agent platform, a B2B SaaS live in production processing real payments, a consumer marketplace, internal automation tooling that replaced hours of manual work every week, and now a crypto-native product built on Robinhood's Layer 2, plus the deployment tooling to go with it.
 
 Most of it built solo or near-solo, moving fast with an AI-assisted multi-agent development workflow instead of a big team. Full breakdown below.
 
 ## Shipped
 
-- **A community-driven compatibility database** for a niche technical platform, think the "ProtonDB model" applied somewhere else. Five-tier rating system, automated config parsing with one-click import, installable as a PWA. Grew through genuine organic community seeding, not paid acquisition. Wound down once the market consolidated around a stronger open-source alternative, open-sourced rather than left to rot, see [configmage](https://github.com/kotesmith/configmage) below.
 - **A gamified personal finance product** that turned debt payoff into an RPG, boss health bars, tiered difficulty scaling with debt size, milestone rewards. Built to make a genuinely unpleasant financial task something people actually wanted to open daily.
 - **A behavioral trading journal**, deliberately pivoted away from signal generation and prediction toward pattern recognition and discipline-building, a product and regulatory decision made early and stuck to.
 - **An AI-agent marketing platform** for crypto projects: automated social agents, multi-level referral mechanics, deflationary token economics with automatic burns.
@@ -37,14 +36,14 @@ Most of it built solo or near-solo, moving fast with an AI-assisted multi-agent 
 ## Open source
 
 - **[agentic-project-scaffold](https://github.com/kotesmith/agentic-project-scaffold)** — the CLAUDE.md / AGENTS.md / PLAN.md pattern used to keep AI coding agents (Claude Code, Cline, whatever's running) inside real constraints across a whole project, instead of re-explaining context every session. Extracted from actual production use, not a theoretical template.
-- **[configmage](https://github.com/kotesmith/configmage)** — compatibility config generator for handheld emulation. Wound down as a product once the market consolidated, open-sourced rather than left to rot.
 - **[prompt-library](https://github.com/kotesmith/prompt-library)** — a working collection of prompts that have actually been battle-tested across a year-plus of AI-assisted development, not a listicle. Organized by what they're for, not how clever they sound.
 
-The three pair together: the scaffold pattern keeps an agent oriented inside a project, the prompt library is what actually gets typed into it once it is.
+The scaffold pattern keeps an agent oriented inside a project, the prompt library is what actually gets typed into it once it is.
 
 ## Currently building
 
-A crypto-native product on Solana. More when it's ready to talk about.
+- A crypto-native product built on Robinhood's Layer 2. More when it's ready to talk about.
+- **hood-deployer** — a no-code tool for deploying tokens and Uniswap V3 liquidity positions without going through a launchpad. Minimal upfront ETH to get a pool live, full control over mint supply and how much of it goes into LP rather than a fixed template deciding for you. Being proven out on a real launch first, open-sourcing once it's shipped that.
 
 ## Stack
 
@@ -67,6 +66,8 @@ A crypto-native product on Solana. More when it's ready to talk about.
 
 **On-chain**
 
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Arbitrum](https://img.shields.io/badge/Arbitrum-2D374B?style=flat&logo=arbitrum&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)
 ![Anchor](https://img.shields.io/badge/Anchor-512DA8?style=flat&logo=anchor&logoColor=white)
